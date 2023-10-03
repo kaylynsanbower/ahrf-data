@@ -6,7 +6,7 @@ pacman::p_load(tidyverse, ggplot2, dplyr, lubridate, DescTools, psych, plotly, d
                ggthemes, here)
 
 # Import data
-df <- read.csv(here("data/input/ahrf2020.csv"))
+df <- read.csv(here("data/intermediate/ahrf2020.csv"))
 
 ##########################
 ##### Splitting Data #####

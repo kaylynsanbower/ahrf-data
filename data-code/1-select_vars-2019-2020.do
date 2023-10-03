@@ -21,10 +21,10 @@ import sas  f00011
 			f1322618 f1322617 f1322616 f1322615 f1322614 f1322613 f1322612 f1322611 f1322610 
 			f1555018 f1555017 f1555016 f1555015 f1555014 f1555013 f1555012 f1555011 
 			
-			using "/Users/kaylynsanbower/Dropbox/Data-Public_Access/AHRF/Data/ahrf2020.sas7bdat"
+			using "data/input/ahrf2020.sas7bdat"
 
 ;
 
 	
 *--- Export Data as CSV ---*
-export delimited using "/Users/kaylynsanbower/Dropbox/Data-Public_Access/AHRF/Data/ahrf2020.csv"
+export delimited using "data/intermediate/ahrf2020.csv"
